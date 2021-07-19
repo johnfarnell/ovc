@@ -1,7 +1,50 @@
 .App {
   text-align: center;
+  margin: 20px;
+}
+.Label { 
+  text-align: left;
+  margin-bottom: 20px;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 5fr 5fr 2fr 3fr;
+  align-self: center;
+  justify-content: center;
+}
+.wrapper > div {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.postRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-self: center;
+  justify-content: center;
+}
+.postRow > div {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.loading {
+  cursor: crosshair;
+}
+.header {
+  font-weight: bold;
+  font-size:large;
+}
+.backRow {
+  margin-top: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
